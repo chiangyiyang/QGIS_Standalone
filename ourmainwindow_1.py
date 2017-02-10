@@ -12,7 +12,7 @@ class OurMainWindow(QMainWindow):
 
         self.setupGui()
 
-        self.add_ogr_layer('/data/alaska.shp')
+        self.add_ogr_layer('C:\\Users\\user\\Downloads\\pyqgis_code_data\\pyqgis_data\\alaska.shp')
         self.map_canvas.zoomToFullExtent()
 
     def setupGui(self):
